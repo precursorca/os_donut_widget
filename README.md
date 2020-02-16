@@ -1,8 +1,8 @@
 # os_donut_widget
 A custom OS Breakdown widget for MunkiReport 5 to display the information in a colored donut.
 
-> v. 1.0
-> February 16, 2019
+> v. 1.0  
+> February 16, 2019  
 > Alex Narvey / Precursor.ca
 
 A custom OS Breakdown widget for MunkiReport 5 to display the information in a colored donut.
