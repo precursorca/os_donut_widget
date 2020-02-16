@@ -9,7 +9,8 @@ A custom OS Breakdown widget for MunkiReport 5 to display the information in a c
 
 No warrantee is offered. Neither express nor implied. Use at your own risk.
 
-Place in munkireport-php/local/views/widgets folder.
+Place in:
+```munkireport-php/local/views/widgets folder.```
 
 ## Updates
 • February 16, 2019 Version 1.0
