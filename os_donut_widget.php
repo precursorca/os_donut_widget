@@ -51,6 +51,8 @@ $(document).on('appReady', function() {
 	}));
 
 	chart.pie.donut(true);
+	chart.tooltip.valueFormatter(function(d){return d});
+
 	d3.select("#os-plot")
 		.datum(data)
 		.transition().duration(1200)
