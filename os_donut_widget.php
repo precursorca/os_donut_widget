@@ -23,7 +23,7 @@
 
 <script>
 
-$(document).on('appReady', function() {
+$(document).on('appUpdate', function() {
 
 	var url = appUrl + '/module/machine/os'
 	var chart;
