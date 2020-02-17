@@ -5,7 +5,7 @@ A custom OS Breakdown widget for MunkiReport 5 to display the information in a c
 > February 17, 2019  
 > Alex Narvey / Precursor.ca
 
-![alt text](os_dount_widget.png "OS Breakdown in colored donut")
+!["OS Breakdown in colored donut"](os_dount_widget.png)
 
 A custom OS Breakdown widget for MunkiReport 5 to display the information in a colored donut.
 
@@ -32,7 +32,9 @@ Place in:
 
 ## Contributors
 • Alex Narvey
+
 • Arjen van Bochoven
 
 — Alex Narvey 
+
 precursor.ca
