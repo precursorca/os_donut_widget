@@ -26,6 +26,12 @@ No warrantee is offered. Neither express nor implied. Use at your own risk.
 Place in:
 ```munkireport-php/local/views/widgets``` folder.
 
+And call using a .yml file ```os-donut:```
+
+See the munkireport wiki on custom dashbaoards at: 
+
+https://github.com/munkireport/munkireport-php/wiki/Dashboards
+
 ## Updates
 • February 16, 2019 Version 1.0
 
