@@ -51,6 +51,24 @@ $(document).on('appReady', function() {
 	}));
 
 	chart.pie.donut(true);
+	
+	var total = d3.sum(data, function(d){
+			return d.count;
+	});
+	// remove decimals in tooltips with valueFormatter override
+	chart.tooltip.valueFormatter(function(d){
+    return (d);
+	}); 
+	// BEGIN valueFormatter to removes Decimals in Tooltips
+	chart.tooltip.valueFormatter(function(d){
+    return (d);
+	// END valueFormatter to removes Decimals in Tooltips
+	// BEGIN valueFormatter to rshow Percentages in Tooltips
+	// chart.tooltip.valueFormatter(function(d){
+    // return (d * 100/total).toFixed() + '%';
+	// END valueFormatter to rshow Percentages in Tooltips
+	}); 
+
 	d3.select("#os-plot")
 		.datum(data)
 		.transition().duration(1200)
@@ -72,6 +90,3 @@ $(document).on('appReady', function() {
 
 });
 </script>
-	
-
-	
