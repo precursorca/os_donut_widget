@@ -12,11 +12,11 @@ A custom OS Breakdown widget for MunkiReport 5 to display the information in a c
 You can cahnge colors by editing the values in ```var myColors```.
 
 You show percentages instead of subtotals in ToolTips by commenting:
-```	chart.tooltip.valueFormatter(function(d){
-    return (d);```.
+```	chart.tooltip.valueFormatter(function(d){```
+```return (d);```
 and uncommenting:
-```chart.tooltip.valueFormatter(function(d){
-   return (d * 100/total).toFixed() + '%';```.
+```chart.tooltip.valueFormatter(function(d){```
+ ```return (d * 100/total).toFixed() + '%';```.
 
 No warrantee is offered. Neither express nor implied. Use at your own risk.
 
