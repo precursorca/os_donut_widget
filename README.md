@@ -37,10 +37,15 @@ https://github.com/munkireport/munkireport-php/wiki/Dashboards
 
 • February 17, 2019 Version 1.0.1 - Arjen van Bochoven added a formatter to remove the decimal in the Tooltips and I provided an option to use percentages in Tooltips instead. Updated the graphic to show Tooltips without decimals. Provided customization instructions.
 
+• February 17, 2019 Version 1.0.2 - Jon Crain fixed code to update when filters are applied.
+
+
 ## Contributors
 • Alex Narvey
 
 • Arjen van Bochoven
+
+• Jon Crain
 
 — Alex Narvey 
 
