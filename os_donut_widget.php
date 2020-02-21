@@ -55,10 +55,7 @@ $(document).on('appUpdate', function() {
 	var total = d3.sum(data, function(d){
 			return d.count;
 	});
-	// remove decimals in tooltips with valueFormatter override
-	chart.tooltip.valueFormatter(function(d){
-    return (d);
-	}); 
+
 	// BEGIN valueFormatter to removes Decimals in Tooltips
 	chart.tooltip.valueFormatter(function(d){
     return (d);
@@ -82,6 +79,11 @@ $(document).on('appUpdate', function() {
 		}));
 	});
 
+	// Provide a clickback to details
+	chart.pie.dispatch.on('elementClick', function(e) {
+    	window.location.href = appUrl + '/show/listing/reportdata/clients#' + mr.integerToVersion(e.data.label);
+    	});
+	
 	return chart;
 
 		});
