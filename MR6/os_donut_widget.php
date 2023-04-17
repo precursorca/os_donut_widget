@@ -19,23 +19,6 @@
 
 </div><!-- /col -->
 
-<div class="col-md-4">
-
-	<div class="panel panel-default" id="os-donut-widget">
-		<div class="panel-heading">
-			<h3 class="panel-title"><i class="fa fa-apple"></i>
-			    <span data-i18n="machine.os.title"></span>
-			    <list-link data-url="/show/listing/reportdata/clients"></list-link>
-			</h3>
-		</div>
-		
-		<div id="os-panel" class="panel-body text-center">
-		<svg id="os-plot" style="width:100%; height: 300px"></svg>
-		</div>
-	</div><!-- /panel -->
-
-</div><!-- /col -->
-
 <script>
 $(document).on('appUpdate', function() {
 	var url = appUrl + '/module/machine/os'
