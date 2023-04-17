@@ -1,8 +1,8 @@
 # os_donut_widget
 A custom OS Breakdown widget for MunkiReport 5 to display the information in a colored donut.
 
-> v. 1.0.3  
-> February 21, 2019  
+> v. 1.0.4  
+> April 17, 2023  
 > Alex Narvey / Precursor.ca
 
 ![OS Breakdown in colored donut](os_donut_widget.png)
@@ -40,6 +40,8 @@ https://github.com/munkireport/munkireport-php/wiki/Dashboards
 • February 17, 2019 Version 1.0.2 - Jon Crain fixed code to update when filters are applied.
 
 • February 21, 2019 Version 1.0.3 - Add a clickback to link to the detailed view.
+
+• April 17, 2023 Version 1.0.4 - Added a version for to display properly in munkireport 6.
 
 
 ## Contributors
