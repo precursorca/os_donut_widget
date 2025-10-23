@@ -1,8 +1,8 @@
 # os_donut_widget
 A custom OS Breakdown widget for MunkiReport 5 to display the information in a colored donut.
 
-> v. 1.0.4  
-> April 17, 2023  
+> v. 1.0.5  
+> October 23, 2025  
 > Alex Narvey / Precursor.ca
 
 ![OS Breakdown in colored donut](os_donut_widget.png)
@@ -20,6 +20,16 @@ and uncommenting:
 
 ```chart.tooltip.valueFormatter(function(d){```
  ```return (d * 100/total).toFixed() + '%';```.
+
+### Piechart
+
+You can get a regular piechart with slices instead of a donut by changing:
+
+```chart.pie.donut(true);```
+
+to 
+
+```chart.pie.donut(false);```
 
 No warrantee is offered. Neither express nor implied. Use at your own risk.
 
@@ -42,6 +52,8 @@ https://github.com/munkireport/munkireport-php/wiki/Dashboards
 • February 21, 2019 Version 1.0.3 - Add a clickback to link to the detailed view.
 
 • April 17, 2023 Version 1.0.4 - Added a version for to display properly in munkireport 6.
+
+• October 23, 2025 Version 1.0.5 - Altered the documentation to show how to get a piechart instead of a donut!
 
 
 ## Contributors
