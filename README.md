@@ -1,8 +1,8 @@
 # os_donut_widget
 A custom OS Breakdown widget for MunkiReport 5 to display the information in a colored donut.
 
-> v. 1.0.5  
-> October 23, 2025  
+> v. 1.0.6  
+> January 14, 2026 
 > Alex Narvey / Precursor.ca
 
 ![OS Breakdown in colored donut](os_donut_widget.png)
@@ -54,6 +54,8 @@ https://github.com/munkireport/munkireport-php/wiki/Dashboards
 • April 17, 2023 Version 1.0.4 - Added a version for to display properly in munkireport 6.
 
 • October 23, 2025 Version 1.0.5 - Altered the documentation to show how to get a piechart instead of a donut!
+
+• January 14, 2026 Version 1.0.6 - Added a tooltip percentage calculation based on gmarnin's work on the reportdata client widget.
 
 
 ## Contributors
