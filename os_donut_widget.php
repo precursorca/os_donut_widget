@@ -56,14 +56,10 @@ $(document).on('appUpdate', function() {
 			return d.count;
 	});
 
-	// BEGIN valueFormatter to removes Decimals in Tooltips
+	// Tooltip number and percentage
 	chart.tooltip.valueFormatter(function(d){
-    return (d);
-	// END valueFormatter to removes Decimals in Tooltips
-	// BEGIN valueFormatter to rshow Percentages in Tooltips
-	// chart.tooltip.valueFormatter(function(d){
-    // return (d * 100/total).toFixed() + '%';
-	// END valueFormatter to rshow Percentages in Tooltips
+    	var percent = (d / total * 100).toFixed(1);
+    	return d + ' (' + percent + '%)';
 	}); 
 
 	d3.select("#os-plot")
